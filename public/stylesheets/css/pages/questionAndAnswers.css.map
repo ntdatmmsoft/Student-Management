@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,kBAAmB;EACjB,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,0BAA0B;EACtC,mBAAmB,EAAE,IAAI;EACzB,uCAAM;IACJ,WAAW,EAAE,IAAI;EAEnB,wBAAQ;IACN,UAAU,EAAE,0BAA0B;;AAIxC,yCAAsB;EACpB,OAAO,EAAE,IAAI;AAEf;mCACc;EACZ,KAAK,EAAE,IAAI;AAEb,oCAAe;EACb,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,mBAAmB",
+"sources": ["../../sass/pages/questionAndAnswers.scss"],
+"names": [],
+"file": "questionAndAnswers.css"
+}

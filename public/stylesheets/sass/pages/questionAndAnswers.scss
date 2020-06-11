@@ -1,0 +1,29 @@
+.imageContainer {
+
+}
+.questionThumbnail {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.3s;
+  & ~ & {
+    margin-left: 10px;
+  }
+  &:hover {
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+#tableAnswers_wrapper {
+  & > .row:nth-child(1) {
+    display: none;
+  }
+  .answerVote,
+  .answerAuthor {
+    color: gray;
+  }
+  .answerContent {
+    padding: 10px;
+    border-left: 4px solid lightgray;
+  }
+}

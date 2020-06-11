@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,qBAAqB;EACnB,eAAe,EAAE,IAAI;;ACErB,8BAAc;EACZ,WAAW,EAAE,MAAM;EACnB,QAAQ,EAAE,MAAM;AAElB,iCAAiB;EACf,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,IAAI;AAEb,0BAAU;EACR,UAAU,EAAE,IAAI;AAElB,iDAAiC;EAC/B,cAAc,EAAE,IAAI",
+"sources": ["../../sass/base.scss","../../sass/pages/questions.scss"],
+"names": [],
+"file": "questions.css"
+}

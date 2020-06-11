@@ -1,16 +1,30 @@
 var MongoClient = require('mongodb').MongoClient;
 const url = require('./app/db_config');
+var path = require('path');
 const express = require('express');
+
 const app = express();
 var index = require('./routes/index.js');
+var user = require('./routes/user.js');
 
 app.listen(3000, function () {
     console.log('listening on 3000')
 })
-app.use('/', index);
+
+app.use(express.static(__dirname + '/public'));
 //set up pug engine
-app.set('views', path.join(__dirname, 'views'));
+//app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+
+
+app.use('/', index);
+app.use('/user', user);
+
+app.get('/blankpage',function(req,res){
+    res.render('blankpage',{title:'Express'});
+})
+
+
 // let marks = [
 //     { Math: 8, History: 9, Education: 10 },
 //     { Math: 7, History: 8, Education: 8 },

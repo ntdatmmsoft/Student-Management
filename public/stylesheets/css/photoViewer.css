@@ -1,0 +1,72 @@
+.photo-viewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 811; }
+
+.photo-viewer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.photo-viewer-content {
+  position: relative;
+  width: 70%;
+  height: 80%;
+  background: black; }
+
+.button-navigation {
+  position: absolute;
+  top: 0;
+  width: 70px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  color: white;
+  text-shadow: 1px 1px #333;
+  text-decoration: none; }
+
+.button-navigation:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: none; }
+
+.button-navigation.navigate-left {
+  left: 0; }
+
+.button-navigation.navigate-right {
+  right: 0; }
+
+.button-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(30%, -30%); }
+
+.button-navigation > .fa,
+.button-close > .fa {
+  font-size: 3rem; }
+
+.photo-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center; }
+
+.photo-container > img {
+  max-width: 100%;
+  max-height: 100%; }
+
+/*# sourceMappingURL=photoViewer.css.map */

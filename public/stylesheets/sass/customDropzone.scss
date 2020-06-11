@@ -1,0 +1,25 @@
+form.dropzone {
+  border-style: dashed;
+  border-color: gray;
+  min-height: 115px;
+  // height: 115px;
+  padding: 0;
+  white-space: nowrap;
+  overflow: scroll;
+  box-sizing: content-box;
+
+  .dz-preview {
+    margin: 5px;
+  }
+  .dz-preview .dz-image {
+    width: 90px;
+    height: 90px;
+  }
+  .dz-preview .dz-details .dz-size {
+    margin-bottom: 0.5em;
+  }
+  .dz-preview .dz-details {
+    font-size: 12px;
+    padding: 1.8em 1em;
+  }
+}

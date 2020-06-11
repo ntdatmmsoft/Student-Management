@@ -1,0 +1,21 @@
+.questionThumbnail {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.3s; }
+  .questionThumbnail ~ .questionThumbnail {
+    margin-left: 10px; }
+  .questionThumbnail:hover {
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.4); }
+
+#tableAnswers_wrapper > .row:nth-child(1) {
+  display: none; }
+#tableAnswers_wrapper .answerVote,
+#tableAnswers_wrapper .answerAuthor {
+  color: gray; }
+#tableAnswers_wrapper .answerContent {
+  padding: 10px;
+  border-left: 4px solid lightgray; }
+
+/*# sourceMappingURL=questionAndAnswers.css.map */

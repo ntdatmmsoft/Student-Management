@@ -1,0 +1,14 @@
+{
+    "extends": "../js/.jshintrc",
+    "asi": false,
+    "browser": false,
+    "es3": false,
+    "es5": false,
+    "esversion": 9,
+    "node": true,
+    "strict": false,
+    "unused": false,
+    "trailing": true,
+    "undef": false,
+    "latedef": false
+}

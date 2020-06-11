@@ -1,0 +1,6 @@
+$headerHeight: 50px;
+#fla {
+  .content-wrapper {
+    min-height: calc(100% - #{$headerHeight});
+  }
+}

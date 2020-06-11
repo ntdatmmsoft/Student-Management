@@ -1,0 +1,18 @@
+@import '../base';
+
+.content-wrapper {
+  .questionCell {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .questionContent {
+    font-size: 1.3em;
+    color: #444;
+  }
+  #dropzone {
+    margin-top: 10px;
+  }
+  .toggle.btn[disabled='disabled'] {
+    pointer-events: none;
+  }
+}

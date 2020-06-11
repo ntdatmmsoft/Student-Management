@@ -1,0 +1,15 @@
+.alert-danger a.close {
+  text-decoration: none; }
+
+.content-wrapper .questionCell {
+  white-space: nowrap;
+  overflow: hidden; }
+.content-wrapper .questionContent {
+  font-size: 1.3em;
+  color: #444; }
+.content-wrapper #dropzone {
+  margin-top: 10px; }
+.content-wrapper .toggle.btn[disabled='disabled'] {
+  pointer-events: none; }
+
+/*# sourceMappingURL=questions.css.map */

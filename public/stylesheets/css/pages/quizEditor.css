@@ -1,0 +1,191 @@
+.alert-danger a.close {
+  text-decoration: none; }
+
+.content-wrapper {
+  position: relative; }
+  .content-wrapper .title {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 32px;
+    height: 62px;
+    line-height: 48px;
+    outline: none;
+    padding-left: 0; }
+  .content-wrapper .box-header {
+    align-items: center;
+    display: flex; }
+  .content-wrapper #quiz-container,
+  .content-wrapper #questionContainer {
+    padding: 0 20px; }
+  .content-wrapper .question-wrapper,
+  .content-wrapper .question {
+    margin-bottom: 40px; }
+    .content-wrapper .question-wrapper textarea.question__textarea,
+    .content-wrapper .question-wrapper textarea.questionInput,
+    .content-wrapper .question-wrapper input[type='text'],
+    .content-wrapper .question textarea.question__textarea,
+    .content-wrapper .question textarea.questionInput,
+    .content-wrapper .question input[type='text'] {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      min-width: 400px;
+      padding-left: 0;
+      width: auto; }
+    .content-wrapper .question-wrapper .question,
+    .content-wrapper .question-wrapper .questionInputWrapper,
+    .content-wrapper .question .question,
+    .content-wrapper .question .questionInputWrapper {
+      display: flex;
+      flex-flow: row nowrap; }
+    .content-wrapper .question-wrapper textarea.question__textarea,
+    .content-wrapper .question-wrapper textarea.questionInput,
+    .content-wrapper .question textarea.question__textarea,
+    .content-wrapper .question textarea.questionInput {
+      align-self: flex-end;
+      font-size: 1.5em;
+      flex: 2;
+      margin-right: 10px; }
+    .content-wrapper .question-wrapper .button-group-question-type,
+    .content-wrapper .question-wrapper .questionTypeButton,
+    .content-wrapper .question .button-group-question-type,
+    .content-wrapper .question .questionTypeButton {
+      align-self: flex-end; }
+    .content-wrapper .question-wrapper ul.list-question-option,
+    .content-wrapper .question ul.list-question-option {
+      list-style-type: none;
+      padding-left: 0; }
+    .content-wrapper .question-wrapper .question-option__text,
+    .content-wrapper .question-wrapper .optionInput,
+    .content-wrapper .question .question-option__text,
+    .content-wrapper .question .optionInput {
+      border-color: #ddd;
+      display: inline-block;
+      float: none; }
+      .content-wrapper .question-wrapper .question-option__text:focus, .content-wrapper .question-wrapper .question-option__text:hover,
+      .content-wrapper .question-wrapper .optionInput:focus,
+      .content-wrapper .question-wrapper .optionInput:hover,
+      .content-wrapper .question .question-option__text:focus,
+      .content-wrapper .question .question-option__text:hover,
+      .content-wrapper .question .optionInput:focus,
+      .content-wrapper .question .optionInput:hover {
+        border-color: #3c8dbc; }
+    .content-wrapper .question-wrapper .checkInput,
+    .content-wrapper .question .checkInput {
+      display: inline-block;
+      margin: 0 10px 0 0;
+      transform: scale(1.3); }
+      .content-wrapper .question-wrapper .checkInput:disabled,
+      .content-wrapper .question .checkInput:disabled {
+        cursor: default; }
+    .content-wrapper .question-wrapper .button-delete-option,
+    .content-wrapper .question .button-delete-option {
+      color: #aaa; }
+      .content-wrapper .question-wrapper .button-delete-option:active, .content-wrapper .question-wrapper .button-delete-option:hover, .content-wrapper .question-wrapper .button-delete-option:focus,
+      .content-wrapper .question .button-delete-option:active,
+      .content-wrapper .question .button-delete-option:hover,
+      .content-wrapper .question .button-delete-option:focus {
+        color: #666; }
+    .content-wrapper .question-wrapper.single-choice .add-question-option__checkbox[type='checkbox'],
+    .content-wrapper .question-wrapper.single-choice .checkInput[type='checkbox'],
+    .content-wrapper .question.single-choice .add-question-option__checkbox[type='checkbox'],
+    .content-wrapper .question.single-choice .checkInput[type='checkbox'] {
+      display: none; }
+    .content-wrapper .question-wrapper.single-choice .checkInput[type='radio'],
+    .content-wrapper .question.single-choice .checkInput[type='radio'] {
+      display: initial; }
+    .content-wrapper .question-wrapper.multiple-choice .add-question-option__checkbox[type='checkbox'],
+    .content-wrapper .question-wrapper.multiple-choice .checkInput[type='checkbox'],
+    .content-wrapper .question.multiple-choice .add-question-option__checkbox[type='checkbox'],
+    .content-wrapper .question.multiple-choice .checkInput[type='checkbox'] {
+      display: initial; }
+    .content-wrapper .question-wrapper.multiple-choice .checkInput[type='radio'],
+    .content-wrapper .question.multiple-choice .checkInput[type='radio'] {
+      display: none; }
+    .content-wrapper .question-wrapper .add-question-option .question-option__text,
+    .content-wrapper .question-wrapper .addOption .optionInput,
+    .content-wrapper .question .add-question-option .question-option__text,
+    .content-wrapper .question .addOption .optionInput {
+      border-color: Gray;
+      border-bottom-style: dashed;
+      color: #888;
+      min-width: 1px;
+      width: 95px; }
+      .content-wrapper .question-wrapper .add-question-option .question-option__text:focus,
+      .content-wrapper .question-wrapper .addOption .optionInput:focus,
+      .content-wrapper .question .add-question-option .question-option__text:focus,
+      .content-wrapper .question .addOption .optionInput:focus {
+        border-bottom-style: solid;
+        border-color: #3c8dbc; }
+      .content-wrapper .question-wrapper .add-question-option .question-option__text:read-only,
+      .content-wrapper .question-wrapper .addOption .optionInput:read-only,
+      .content-wrapper .question .add-question-option .question-option__text:read-only,
+      .content-wrapper .question .addOption .optionInput:read-only {
+        background: none; }
+  .content-wrapper .tgl {
+    display: none; }
+    .content-wrapper .tgl, .content-wrapper .tgl:after, .content-wrapper .tgl:before, .content-wrapper .tgl *, .content-wrapper .tgl *:after, .content-wrapper .tgl *:before, .content-wrapper .tgl + .tgl-btn {
+      box-sizing: border-box; }
+      .content-wrapper .tgl::selection, .content-wrapper .tgl:after::selection, .content-wrapper .tgl:before::selection, .content-wrapper .tgl *::selection, .content-wrapper .tgl *:after::selection, .content-wrapper .tgl *:before::selection, .content-wrapper .tgl + .tgl-btn::selection {
+        background: none; }
+    .content-wrapper .tgl + .tgl-btn {
+      outline: 0;
+      display: inline-block;
+      font-size: 1rem;
+      width: 4em;
+      height: 2em;
+      margin: 5px 5px 0;
+      position: relative;
+      cursor: pointer;
+      user-select: none; }
+      .content-wrapper .tgl + .tgl-btn:after, .content-wrapper .tgl + .tgl-btn:before {
+        position: relative;
+        display: block;
+        content: '';
+        width: 50%;
+        height: 100%; }
+      .content-wrapper .tgl + .tgl-btn:after {
+        left: 0; }
+      .content-wrapper .tgl + .tgl-btn:before {
+        display: none; }
+    .content-wrapper .tgl:checked + .tgl-btn:after {
+      left: 50%; }
+  .content-wrapper .tgl-flip + .tgl-btn {
+    padding: 2px;
+    transition: all 0.2s ease;
+    font-family: sans-serif;
+    perspective: 100px; }
+    .content-wrapper .tgl-flip + .tgl-btn:after, .content-wrapper .tgl-flip + .tgl-btn:before {
+      display: inline-block;
+      transition: all 0.4s ease;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      line-height: 2em;
+      font-weight: bold;
+      color: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      backface-visibility: hidden;
+      border-radius: 4px; }
+    .content-wrapper .tgl-flip + .tgl-btn:after {
+      content: attr(data-tg-on);
+      background: #3C8DBC;
+      transform: rotateY(-180deg); }
+    .content-wrapper .tgl-flip + .tgl-btn:before {
+      background: #FF3A19;
+      content: attr(data-tg-off); }
+    .content-wrapper .tgl-flip + .tgl-btn:active:before {
+      transform: rotateY(-20deg); }
+  .content-wrapper .tgl-flip:checked + .tgl-btn:before {
+    transform: rotateY(180deg); }
+  .content-wrapper .tgl-flip:checked + .tgl-btn:after {
+    transform: rotateY(0);
+    left: 0;
+    background: #3C8DBC; }
+  .content-wrapper .tgl-flip:checked + .tgl-btn:active:after {
+    transform: rotateY(20deg); }
+
+/*# sourceMappingURL=quizEditor.css.map */
